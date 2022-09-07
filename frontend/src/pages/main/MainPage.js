@@ -21,19 +21,7 @@ function MainPage() {
             address: "aaaa",
             amount: 10,
             status: "confirmed",
-        },
-        {
-            hash: "0x112",
-            address: "bbbb",
-            amount: 10,
-            status: "unconfirmed",
-        },
-        {
-            hash: "0x113",
-            address: "cccc",
-            amount: 10,
-            status: "confirmed",
-        },
+        }
     ]);
 
     const gasFee = 5000;
