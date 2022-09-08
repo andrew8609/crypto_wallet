@@ -117,11 +117,7 @@ function MainPage() {
                         },
                     ]);
                 });
-                // wallet.getBalance().then((data) => {
-                //     console.log(data.toString());
-                // });
-                // => 0x9c172314a693b94853b49dc057cf1cb8e529f29ce0272f451eea8f5741aa9b58
-                // A transaction result can be checked in a etherscan with a transaction hash which can be obtained here.
+          
             })
             .catch((err) => {
                 // console.log(
